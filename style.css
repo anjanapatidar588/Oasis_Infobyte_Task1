@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+     background:linear-gradient(rgba(0,0,0,0.2)), linear-gradient(rgba(0,0,0,0.2)) ,url('./img/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-position: center center;
+  font-family: sans-serif;
+}
+
+nav{
+  height: 100px;
+  width: 100%;
+  color: rgb(247, 245, 245);
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.logo{
+  font-size: 2rem;
+  letter-spacing: 2px;
+
+}
+
+.manu a{
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+    padding: 10px 20px;
+    font-size: 15px;
+   position: relative;
+}
+.manu a:before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0%;
+   height: 100%;
+   border-bottom: 2px solid indianred;
+   transition: 0.4s linear;
+
+}
+.manu a:hover:before{
+       width: 90%;
+}
+.register a{
+  text-decoration: none;
+  color: rgb(224, 215, 215);
+  padding: 10px 20px;
+  font-size: 20px;
+  background:indianred;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.register a:hover{
+  background: transparent;
+  border: 1px solid indianred;
+}
+.headerTxt{
+  max-width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+.headerTxt span{
+  letter-spacing: 5px;
+  font-size: 20px;
+
+}
+.headerTxt h2{
+     font-size: 3.5em;
+}  
+
+
+
+.headerTxt a{
+  text-decoration: none;
+  background: indianred;
+  color: aliceblue;
+  padding: 10px 20px;
+  letter-spacing: 5px;
+
+}
+.headerTxt a:hover{
+  background: transparent;
+  border: 1px solid indianred;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section Styles */
+.section {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  text-align: center;
+  background-color: rgb(206, 187, 190);
+}
+
+.section:nth-child(even) {
+  background: #fff;
+  background-color: rgb(250, 211, 218);
+
+}
+
+.section h2 {
+  font-size: 2.5em;
+  color: indianred;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #444;
+}
+
+/* Contact Section */
+.contact {
+  background: #222;
+  color: white;
+}
+
+.contact p {
+  color: #ccc;
+}
+
+/* Animations */
+.headerTxt {
+  animation: fadeInUp 2s ease-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
