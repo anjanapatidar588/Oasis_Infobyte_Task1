@@ -1,8 +1,8 @@
 # Oasis_Infobyte_Task1
 ✨A modern, responsive landing page for Travel-X 🌏 , an international travel agency website. Built with HTML and CSS🎨. and multiple content sections like hill stations, offers, popular sites, and contact details. Ideal for showcasing travel services with elegance and simplicity.
 
-Features
-🌍 Fullscreen background hero section with CTA
+## Features
+
 
   🌄 Hill Station highlights
   
@@ -23,11 +23,13 @@ Features
   
 
 
-  📌 Technologies Used
+ # 📌 Technologies Used
   
-  HTM5L
+  ✔️ HTM5L
 
-   CSS3 (with custom animations and transitions)
+  ✔️ CSS3 (with custom animations and transitions)
+
+  
 
 
 
